@@ -23,7 +23,7 @@ import { buildAllAdvisories } from '../utils/buildAdvisories';
 
 const NUTRIENT_LABELS: Record<NutrientKey, Record<LocaleCode, string>> = {
   nitrogen: {
-    en: 'Nitrogen',
+    en: 'Growth & leaf development',
     hi: 'नाइट्रोजन',
     ta: 'நைட்ரஜன்',
     te: 'నత్రజని',
@@ -31,7 +31,7 @@ const NUTRIENT_LABELS: Record<NutrientKey, Record<LocaleCode, string>> = {
     bn: 'নাইট্রোজেন',
   },
   phosphorus: {
-    en: 'Phosphorus',
+    en: 'Root & energy development',
     hi: 'फॉस्फोरस',
     ta: 'பாஸ்பரஸ்',
     te: 'భాస్వరం',
@@ -39,7 +39,7 @@ const NUTRIENT_LABELS: Record<NutrientKey, Record<LocaleCode, string>> = {
     bn: 'ফসফরাস',
   },
   potassium: {
-    en: 'Potassium',
+    en: 'Plant strength & resilience',
     hi: 'पोटैशियम',
     ta: 'பொட்டாசியம்',
     te: 'పొటాషియం',
@@ -47,7 +47,7 @@ const NUTRIENT_LABELS: Record<NutrientKey, Record<LocaleCode, string>> = {
     bn: 'পটাশিয়াম',
   },
   ph: {
-    en: 'Soil pH',
+    en: 'Soil acidity / alkalinity',
     hi: 'मिट्टी का pH',
     ta: 'மண் pH',
     te: 'మట్టి pH',
@@ -55,7 +55,7 @@ const NUTRIENT_LABELS: Record<NutrientKey, Record<LocaleCode, string>> = {
     bn: 'মাটির pH',
   },
   ec: {
-    en: 'Soil EC',
+    en: 'Salt / salinity level',
     hi: 'मिट्टी की EC',
     ta: 'மண் EC',
     te: 'మట్టి EC',
